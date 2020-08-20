@@ -1,6 +1,9 @@
 Bootstrap: docker
 From: continuumio/miniconda3
 
+%labels
+    Version v0.0.1
+
 %post
     apt-get update -y
     apt-get install -y build-essential
