@@ -2,7 +2,7 @@ Bootstrap: docker
 From: continuumio/miniconda3
 
 %labels
-    Version v0.0.1
+    Version v0.0.2
 
 %post
     apt-get update -y
