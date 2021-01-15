@@ -17,7 +17,7 @@ RUN \
     conda create -n myenv -c bioconda -c conda-forge python==3.7.6 biopython Cython setuptools pandas numpy plotly && \
     conda activate myenv && \
     git clone https://gitlab.com/semarpetrus/pk_binning.git && \
-    cd pankmer/ && \
+    cd pk_binning/ && \
     python setup.py build_ext --inplace && \
     python setup.py install
 
